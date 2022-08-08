@@ -17,7 +17,7 @@ public class TutorialMod{
 
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ItemInit.RUBY.get());
+            return new ItemStack(ItemInit.SCYTHE.get());
         }
     };
 

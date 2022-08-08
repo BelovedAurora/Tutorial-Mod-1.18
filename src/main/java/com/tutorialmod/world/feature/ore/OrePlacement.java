@@ -7,7 +7,7 @@ import net.minecraft.world.level.levelgen.placement.HeightRangePlacement;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 
 public class OrePlacement {
-    public static final Holder<PlacedFeature> RUBY_ORE_PLACED = PlacementUtils.register("ruby_ore_placed",
-            OreGenerationFeatures.RUBY_ORE,OrePlacedFeatures.commonOrePlacement(10, // VeinsPerChunk
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-32), VerticalAnchor.aboveBottom(32))));
+    public static final Holder<PlacedFeature> UNSTABLE_ORE_PLACED = PlacementUtils.register("unstable_ore_placed",
+            OreGenerationFeatures.UNSTABLE_ORE,OrePlacedFeatures.commonOrePlacement(5, // VeinsPerChunk
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
 }

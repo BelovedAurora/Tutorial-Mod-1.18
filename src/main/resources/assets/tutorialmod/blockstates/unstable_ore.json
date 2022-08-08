@@ -1,6 +1,8 @@
+
 {
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "tutorialmod:block/unstable_ore"
+  "variants": {
+    "": {
+      "model": "tutorialmod:block/unstable_ore"
+    }
   }
 }

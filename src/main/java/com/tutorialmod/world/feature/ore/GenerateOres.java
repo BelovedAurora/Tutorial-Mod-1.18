@@ -12,7 +12,7 @@ public class GenerateOres {
         List<Holder<PlacedFeature>> base =
                 event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES);
 
-        base.add(OrePlacement.RUBY_ORE_PLACED);
+        base.add(OrePlacement.UNSTABLE_ORE_PLACED);
     }
 }
 

@@ -22,7 +22,7 @@ public class BlockInit {
 
     public static final RegistryObject<Block> UNSTABLE_ORE   = registerBlock("unstable_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f,6).sound(SoundType.STONE).requiresCorrectToolForDrops()), TutorialMod.TUTORIAL_TAB);
+                    .strength(15f,1201).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), TutorialMod.TUTORIAL_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
