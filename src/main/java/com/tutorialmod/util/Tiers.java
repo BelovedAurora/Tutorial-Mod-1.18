@@ -8,6 +8,6 @@ import net.minecraftforge.common.ForgeTier;
 
 public class Tiers {
     public static final ForgeTier unstable = new ForgeTier(5, 1500, 9f,
-            2f, 15, BlockTags.NEEDS_DIAMOND_TOOL,
+            6f, 15, BlockTags.NEEDS_DIAMOND_TOOL,
             () -> Ingredient.of(BlockInit.UNSTABLE_ORE.get()));
 }

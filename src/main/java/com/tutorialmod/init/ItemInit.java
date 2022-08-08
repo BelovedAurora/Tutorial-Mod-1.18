@@ -4,6 +4,7 @@ import com.tutorialmod.TutorialMod;
 import com.tutorialmod.init.custom.ScytheItem;
 import com.tutorialmod.init.custom.Scythe_of_decay_Item;
 import com.tutorialmod.init.custom.Scythe_of_slowing_Item;
+import com.tutorialmod.init.custom.Scythe_of_the_hearty;
 import com.tutorialmod.util.Tiers;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
@@ -17,6 +18,10 @@ public class ItemInit {
 
     public static final RegistryObject<Item> SCYTHE = ITEMS.register("scythe",
             () -> new ScytheItem(Tiers.unstable, 4, -2.4f,
+                    new Item.Properties().tab(TutorialMod.TUTORIAL_TAB)));
+
+    public static final RegistryObject<Item> SCYTHE_OF_THE_HEARTY = ITEMS.register("scythe_of_the_hearty",
+            () -> new Scythe_of_the_hearty(Tiers.unstable, 4, -2.4f,
                     new Item.Properties().tab(TutorialMod.TUTORIAL_TAB)));
 
     public static final RegistryObject<Item> SCYTHE_OF_SLOWING = ITEMS.register("scythe_of_slowing",

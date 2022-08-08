@@ -9,5 +9,5 @@ import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 public class OrePlacement {
     public static final Holder<PlacedFeature> UNSTABLE_ORE_PLACED = PlacementUtils.register("unstable_ore_placed",
             OreGenerationFeatures.UNSTABLE_ORE,OrePlacedFeatures.commonOrePlacement(5, // VeinsPerChunk
-                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
+                    HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-50), VerticalAnchor.aboveBottom(50))));
 }
