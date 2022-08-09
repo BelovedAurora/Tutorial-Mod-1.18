@@ -16,12 +16,7 @@ public class Scythe_of_decay_Item extends SwordItem {
     @Override
     public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
 
-        target.addEffect(new MobEffectInstance(MobEffects.POISON, 200, 2));
-
-
-
-
-
+        target.addEffect(new MobEffectInstance(MobEffects.POISON, 100, 2));
 
 
         // The one being hit by the weapon. the mob or another player.
